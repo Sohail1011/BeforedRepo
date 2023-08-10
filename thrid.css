@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav li {
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+    margin-inline: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.mark {
+    width: 500px;
+    height: 300px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    background-color: cyan;
+    z-index: 5;
+}
+
+.mark2 {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    left: 6rem;
+    bottom: 9rem;
+    z-index: 10;
+}
+
+.mark3 {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: gray;
+    bottom: 12rem;
+    left: 10rem;
+    z-index: 15;
+}
+
+.mark4 {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: yellowgreen;
+    bottom: 32rem;
+    left: 8rem;
+    z-index: 20;
+}
