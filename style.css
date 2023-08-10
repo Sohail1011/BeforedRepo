@@ -13,4 +13,19 @@
     width: 200px;
     height: 100px;
     background-color: aqua;
+    box-shadow: 12px 18px 10px green;
+}
+
+.box:active {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+}
+
+.box::before {
+    content: 'Any other detail';
+}
+
+.box::after {
+    content: 'More details';
 }
