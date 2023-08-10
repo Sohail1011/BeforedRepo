@@ -1,0 +1,16 @@
+.box {
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    box-shadow: 12px 18px 10px gray;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+    background-color: black;
+}
+
+.box:hover {
+    width: 200px;
+    height: 100px;
+    background-color: aqua;
+}
